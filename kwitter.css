@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color: rgb(117, 0, 0);
+    color: white;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+#shadow {
+    width: 500px;
+    
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px black, 10px 10px 8px rgb(61, 59, 59), 15px 15px 8px rgb(116, 116, 116);
+}
