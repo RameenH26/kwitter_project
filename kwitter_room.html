@@ -3,31 +3,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <head>
-    <title>Kwitter Class Project</title>
+    <title>Kwitter</title>
     </head>    
 <body>
+    <button id="logout" onclick="logOut()" class="btn btn-danger">Log Out   <img src="logout.png" id="leave"></button>
 <center>
     <br>
     <h1>Kwitter</h1>
     <img src="gamelogo.png">
     <br>
     <br>
+    <h1 id="user_name"></h1>
+    <input type="text" id="room_name" class="form-control" placeholder="Enter Room Name Here">
+    <br>
+    <button id="addRoom" class="btn btn-success" onclick="addRoom()">Add Room</button>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
- <div id= "shadow">  
-      <input type="text" id="user_name" class="form_control" placeholder="User Name">  
-      <br> 
-      <br>
-        <button id="login_button" class="btn btn-primary" onclick="addUser()">Log In</button>
-</div>
+    <div id="shadow"><h2>#bfvvbsmb</h2>
 </center>
 
 <!--Link to css-->
-<link rel="stylesheet" href="kwitter.css">
+<link rel="stylesheet" href="kwitter_room.css">
 </body>
 <!--Link to js-->
-<script src = "kwitter.js"></script>
+<script src = "kwitter_room.js"></script>
 </html>
