@@ -1,0 +1,28 @@
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <title>Kwitter</title>
+    </head>    
+<body>
+    <button id="logout" onclick="logOut()" class="btn btn-danger">Log Out   <img src="logout.png" id="leave"></button>
+<center>
+    <br>
+    <h1>Kwitter</h1>
+    <img src="gamelogo.png">
+    <br>
+    <br>
+    <div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+</center>
+<div class="input_div_message_page">
+    <label>Send:</label>
+    <input type="text" id="msg" class="form-control" placeholder="Message">
+    <button onclick="send()" class="btn btn-success">Send</button>
+</div>
+<!--Link to css-->
+<link rel="stylesheet" href="kwitter_page.css">
+</body>
+<!--Link to js-->
+<script src = "kwitter_page.js"></script>
+</html>
